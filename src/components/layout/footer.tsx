@@ -2,21 +2,17 @@ import Link from "next/link";
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import { NAV_LINKS, SITE_INFO, SOCIAL_LINKS } from "@/lib/constants";
-import { Facebook, Instagram, Mail, MapPin, Phone, Youtube } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="glass-card mt-20 border-t-2 border-primary/20">
-      <div className="container mx-auto grid grid-cols-1 gap-12 p-8 md:grid-cols-4 lg:grid-cols-5">
+    <footer className="mt-20 border-t bg-card">
+      <div className="container mx-auto grid grid-cols-1 gap-12 p-8 md:grid-cols-4 lg:grid-cols-5 md:p-12">
         <div className="col-span-1 flex flex-col gap-4 md:col-span-4 lg:col-span-2">
           <Link href="/" className="flex items-center gap-3">
-            <Logo className="h-10 w-10" />
-            <div>
-              <p className="font-headline text-2xl font-bold">B Beyond Hair &amp; Beauty Salon</p>
-              <p className="text-sm text-muted-foreground">{SITE_INFO.tagline}</p>
-            </div>
+            <Logo />
           </Link>
-          <p className="text-muted-foreground">{SITE_INFO.brandPositioning}</p>
+          <p className="text-muted-foreground max-w-sm">{SITE_INFO.brandPositioning}</p>
           <div className="flex gap-2">
             {SOCIAL_LINKS.map((social) => (
               <Button key={social.name} variant="outline" size="icon" asChild className="rounded-full">
@@ -38,6 +34,11 @@ const Footer = () => {
                 </Button>
               </li>
             ))}
+             <li>
+                <Button variant="link" asChild className="justify-start p-0 text-muted-foreground hover:text-primary">
+                  <Link href="/book-appointment">Book Appointment</Link>
+                </Button>
+              </li>
           </ul>
         </div>
 

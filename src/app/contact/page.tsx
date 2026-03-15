@@ -12,10 +12,10 @@ export default function ContactPage() {
         title="Contact Us"
         subtitle="We're here to help! Reach out with any questions or to schedule your next appointment."
       />
-      <section className="container px-6 md:px-12">
+      <section className="container px-6 md:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-1 space-y-8">
-            <Card className="glass-card">
+            <Card>
               <CardHeader className="flex-row items-center gap-4">
                 <Phone className="w-8 h-8 text-primary" />
                 <CardTitle>Call Us</CardTitle>
@@ -27,7 +27,7 @@ export default function ContactPage() {
                 ))}
               </CardContent>
             </Card>
-            <Card className="glass-card">
+            <Card>
               <CardHeader className="flex-row items-center gap-4">
                 <Mail className="w-8 h-8 text-primary" />
                 <CardTitle>Email Us</CardTitle>
@@ -37,7 +37,7 @@ export default function ContactPage() {
                 <a href={`mailto:${SITE_INFO.email}`} className="block text-lg font-semibold text-primary hover:underline break-all">{SITE_INFO.email}</a>
               </CardContent>
             </Card>
-             <Card className="glass-card">
+             <Card>
               <CardHeader className="flex-row items-center gap-4">
                 <MapPin className="w-8 h-8 text-primary" />
                 <CardTitle>Visit Us</CardTitle>
@@ -49,7 +49,7 @@ export default function ContactPage() {
             </Card>
           </div>
           <div className="lg:col-span-2">
-            <Card className="glass-card h-full">
+            <Card className="h-full">
               <CardHeader>
                 <CardTitle className="text-2xl">Send a Message</CardTitle>
               </CardHeader>

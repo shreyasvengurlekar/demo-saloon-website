@@ -1,9 +1,9 @@
-import { Home, Scissors, Sparkles, ImageIcon, Phone, Book, GanttChart, Users, Instagram, Facebook, Youtube } from "lucide-react";
+import { Instagram, Facebook, Youtube } from "lucide-react";
 
 export const SITE_INFO = {
   name: "B Beyond Hair & Beauty Salon",
   title: "B Beyond Glow",
-  tagline: "Hair. Beauty. Confidence. Beyond.",
+  tagline: "Elevate Your Style. Define Your Confidence.",
   owners: [
     { name: "Pranali Pingulkar", role: "Co-Owner" },
     { name: "Gauresh Pingulkar", role: "Co-Owner" },
@@ -20,13 +20,12 @@ export const SITE_INFO = {
 };
 
 export const NAV_LINKS = [
-  { href: "/", label: "Home", icon: Home, desktop: true, mobile: true },
-  { href: "/services", label: "Services", icon: Scissors, desktop: true, mobile: true },
-  { href: "/book-appointment", label: "Book", icon: Book, desktop: false, mobile: true },
-  { href: "/bridal", label: "Bridal", icon: Sparkles, desktop: true, mobile: false },
-  { href: "/gallery", label: "Gallery", icon: ImageIcon, desktop: true, mobile: true },
-  { href: "/about", label: "About", icon: Users, desktop: true, mobile: false },
-  { href: "/contact", label: "Contact", icon: Phone, desktop: true, mobile: true },
+  { href: "/", label: "Home", desktop: true, mobile: true },
+  { href: "/services", label: "Services", desktop: true, mobile: true },
+  { href: "/bridal", label: "Bridal", desktop: true, mobile: false },
+  { href: "/gallery", label: "Gallery", desktop: true, mobile: true },
+  { href: "/about", label: "About", desktop: true, mobile: true },
+  { href: "/contact", label: "Contact", desktop: true, mobile: true },
 ];
 
 export const SOCIAL_LINKS = [

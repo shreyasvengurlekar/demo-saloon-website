@@ -15,17 +15,17 @@ export default function GalleryPage() {
         title="Our Gallery"
         subtitle="A glimpse into the transformations and artistry happening every day at B Beyond Salon."
       />
-      <section className="container px-6 md:px-12">
+      <section className="container px-6 md:px-6">
         <div className="columns-1 gap-4 sm:columns-2 md:columns-3 lg:columns-4">
           {galleryImages.map((image) => (
-            <Card key={image.id} className="mb-4 break-inside-avoid overflow-hidden">
+            <Card key={image.id} className="mb-4 break-inside-avoid overflow-hidden border-0">
               <CardContent className="p-0">
                 <div className="relative aspect-[3/4]">
                   <Image
                     src={image.imageUrl}
                     alt={image.description}
                     fill
-                    className="object-cover"
+                    className="object-cover rounded-lg"
                     data-ai-hint={image.imageHint}
                     sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
                   />

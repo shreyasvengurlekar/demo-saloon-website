@@ -5,12 +5,11 @@ import { Toaster } from "@/components/ui/toaster";
 import { cn } from '@/lib/utils';
 import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
-import MobileNav from '@/components/layout/mobile-nav';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'B Beyond Glow - Premium Salon in Kudal, Sindhudurg',
+  title: 'B Beyond Hair & Beauty Salon - Premium Salon in Kudal, Sindhudurg',
   description: 'Experience luxury hair, beauty, and confidence at B Beyond Hair & Beauty Salon. A premium unisex salon in Kudal, Sindhudurg for modern styling and bridal beauty.',
   keywords: ['salon in Kudal', 'beauty salon in Sindhudurg', 'unisex salon in Kudal', 'bridal makeup in Kudal', 'hair salon in Sindhudurg', 'B Beyond Salon'],
   authors: [{ name: 'Pranali Pingulkar' }, { name: 'Gauresh Pingulkar' }],
@@ -18,10 +17,10 @@ export const metadata: Metadata = {
   publisher: 'B Beyond Salon',
   metadataBase: new URL('https://bbeyondsalon.com'), // Replace with actual domain
   openGraph: {
-    title: 'B Beyond Glow - Premium Salon in Kudal, Sindhudurg',
+    title: 'B Beyond Hair & Beauty Salon - Premium Salon in Kudal, Sindhudurg',
     description: 'Luxury hair, beauty, and confidence. Book your transformation today.',
     url: 'https://bbeyondsalon.com', // Replace with actual domain
-    siteName: 'B Beyond Glow',
+    siteName: 'B Beyond Hair & Beauty Salon',
     images: [
       {
         url: '/og-image.jpg', // To be created
@@ -35,14 +34,14 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'B Beyond Glow - Premium Salon in Kudal, Sindhudurg',
+    title: 'B Beyond Hair & Beauty Salon - Premium Salon in Kudal, Sindhudurg',
     description: 'Experience luxury hair, beauty, and confidence at B Beyond Hair & Beauty Salon.',
     images: ['/og-image.jpg'], // To be created
   },
 };
 
 export const viewport: Viewport = {
-  themeColor: '#F7668F',
+  themeColor: '#C4A586',
   colorScheme: 'light',
 };
 
@@ -53,20 +52,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="light">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
       </head>
       <body className={cn('font-body antialiased', inter.variable)}>
-        <div className="fixed inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(hsl(var(--foreground)/0.05)_1px,transparent_1px)] [background-size:16px_16px]"></div>
         <div className="relative flex min-h-screen flex-col">
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
         </div>
-        <MobileNav />
         <Toaster />
       </body>
     </html>

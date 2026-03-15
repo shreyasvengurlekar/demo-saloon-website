@@ -10,9 +10,9 @@ export default function BookAppointmentPage() {
         title="Book Your Appointment"
         subtitle="Fill out the form below to request an appointment. We'll contact you to confirm the date and time."
       />
-      <section className="container px-6 md:px-12">
+      <section className="container px-6 md:px-6">
         <div className="max-w-2xl mx-auto">
-          <Card className="glass-card">
+          <Card>
             <CardHeader>
               <CardTitle>Appointment Request</CardTitle>
               <CardDescription>

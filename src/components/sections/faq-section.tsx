@@ -4,9 +4,9 @@ import { FAQ_DATA } from "@/lib/constants";
 export function FaqSection() {
   return (
     <section className="py-20 md:py-32">
-      <div className="container max-w-4xl mx-auto px-6 md:px-12">
+      <div className="container max-w-4xl mx-auto px-6 md:px-6">
         <div className="text-center mb-16">
-          <h2 className="font-headline text-4xl font-bold text-glow md:text-5xl">Frequently Asked Questions</h2>
+          <h2 className="font-headline text-4xl font-bold md:text-5xl">Frequently Asked Questions</h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Have questions? We have answers. Here are some of the most common inquiries we receive.
           </p>

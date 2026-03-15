@@ -9,12 +9,12 @@ type PageHeaderProps = {
 
 export function PageHeader({ title, subtitle, className }: PageHeaderProps) {
   return (
-    <div className={cn('container px-6 md:px-12 py-16 md:py-24 text-center', className)}>
-      <h1 className="font-headline text-4xl font-bold tracking-tight text-foreground md:text-6xl text-glow">
+    <div className={cn('container px-6 md:px-6 py-16 md:py-24 text-center', className)}>
+      <h1 className="font-headline text-4xl font-bold tracking-tight text-foreground md:text-6xl">
         {title}
       </h1>
       {subtitle && (
-        <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
+        <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
           {subtitle}
         </p>
       )}

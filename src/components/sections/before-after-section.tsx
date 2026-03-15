@@ -35,7 +35,7 @@ const BeforeAfterSlider = ({ beforeImg, afterImg }: { beforeImg: any; afterImg: 
   return (
     <div
       ref={imageContainerRef}
-      className="group relative w-full max-w-3xl mx-auto aspect-[4/3] overflow-hidden rounded-2xl glass-card select-none"
+      className="group relative w-full max-w-3xl mx-auto aspect-[4/3] overflow-hidden rounded-lg select-none"
     >
       {beforeImg && (
         <Image
@@ -65,15 +65,16 @@ const BeforeAfterSlider = ({ beforeImg, afterImg }: { beforeImg: any; afterImg: 
         </div>
       )}
       <div
-        className="absolute inset-y-0 z-20 w-1 bg-primary/50"
+        className="absolute inset-y-0 z-10 w-1 bg-primary/80 cursor-ew-resize"
         style={{
           left: `calc(${sliderPosition}% - 2px)`,
         }}
+        onMouseDown={handleMouseDown}
+        onTouchMove={handleTouchMove}
       >
         <div
-          className="absolute top-1/2 left-1/2 h-12 w-12 -translate-x-1/2 -translate-y-1/2 rounded-full glass-card border-2 border-primary bg-background/50 flex items-center justify-center transition-transform group-hover:scale-110 cursor-ew-resize"
-          onMouseDown={handleMouseDown}
-          onTouchMove={handleTouchMove}
+          className="absolute top-1/2 left-1/2 h-12 w-12 -translate-x-1/2 -translate-y-1/2 rounded-full bg-background/80 border-2 border-primary flex items-center justify-center transition-transform group-hover:scale-110"
+          
         >
           <ChevronsLeftRight className="w-6 h-6 text-primary" />
         </div>
@@ -87,9 +88,9 @@ export function BeforeAfterSection() {
   const afterImage = PlaceHolderImages.find((img) => img.id === 'after-1');
 
   return (
-    <section className="container px-12 md:px-24 py-20 md:py-32">
+    <section className="container px-6 md:px-6 py-20 md:py-32">
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="font-headline text-4xl font-bold text-glow md:text-5xl">Transformations</h2>
+        <h2 className="font-headline text-4xl font-bold md:text-5xl">Transformations</h2>
         <p className="mt-4 text-lg text-muted-foreground">
           Witness the magic. Real results, real confidence.
         </p>
