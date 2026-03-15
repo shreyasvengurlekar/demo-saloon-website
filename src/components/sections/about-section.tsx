@@ -46,7 +46,7 @@ export function AboutSection() {
           <div className="lg:order-1 flex gap-4 justify-center">
              <Card className="glass-card relative -rotate-6 transition-transform hover:rotate-0 hover:scale-105">
                 <CardHeader>
-                    {pranaliImage && <Image src={pranaliImage.imageUrl} alt={pranaliImage.description} width={200} height={200} className="rounded-lg" data-ai-hint={pranaliImage.imageHint} />}
+                    {pranaliImage && <Image src={pranaliImage.imageUrl} alt={pranaliImage.description} width={200} height={250} className="rounded-lg object-cover" data-ai-hint={pranaliImage.imageHint} />}
                 </CardHeader>
                 <CardContent className="text-center">
                     <CardTitle className="font-headline">{SITE_INFO.owners[0].name}</CardTitle>
@@ -55,7 +55,7 @@ export function AboutSection() {
              </Card>
              <Card className="glass-card relative rotate-6 transition-transform hover:rotate-0 hover:scale-105 mt-8">
                 <CardHeader>
-                    {gaureshImage && <Image src={gaureshImage.imageUrl} alt={gaureshImage.description} width={200} height={200} className="rounded-lg" data-ai-hint={gaureshImage.imageHint} />}
+                    {gaureshImage && <Image src={gaureshImage.imageUrl} alt={gaureshImage.description} width={200} height={250} className="rounded-lg object-cover" data-ai-hint={gaureshImage.imageHint} />}
                 </CardHeader>
                 <CardContent className="text-center">
                     <CardTitle className="font-headline">{SITE_INFO.owners[1].name}</CardTitle>

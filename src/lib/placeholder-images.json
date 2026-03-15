@@ -3,8 +3,8 @@
     {
       "id": "hero-background",
       "description": "Elegant and bright salon interior with modern chairs",
-      "imageUrl": "https://picsum.photos/seed/salon-interior/1920/1080",
-      "imageHint": "salon interior"
+      "imageUrl": "https://picsum.photos/seed/bright-salon/1920/1080",
+      "imageHint": "bright salon"
     },
     {
       "id": "service-haircut",
@@ -33,26 +33,26 @@
     {
       "id": "owner-pranali",
       "description": "A professional portrait of Pranali Pingulkar, co-owner and lead stylist",
-      "imageUrl": "https://picsum.photos/seed/professional-woman-portrait/400/400",
-      "imageHint": "woman portrait"
+      "imageUrl": "https://picsum.photos/seed/female-portrait/400/500",
+      "imageHint": "female portrait"
     },
     {
       "id": "owner-gauresh",
       "description": "A professional portrait of Gauresh Pingulkar, co-owner and stylist",
-      "imageUrl": "https://picsum.photos/seed/portrait-male-professional/400/400",
-      "imageHint": "man portrait"
+      "imageUrl": "https://picsum.photos/seed/male-portrait/400/500",
+      "imageHint": "male portrait"
     },
     {
       "id": "before-1",
       "description": "A woman's hair before a color and styling session, shown in grayscale",
-      "imageUrl": "https://picsum.photos/seed/hair-transformation/800/600",
-      "imageHint": "woman before"
+      "imageUrl": "https://picsum.photos/seed/hair-color-reveal/800/600",
+      "imageHint": "hair color before"
     },
     {
       "id": "after-1",
       "description": "The same woman's hair after a stunning balayage transformation, shown in full color",
-      "imageUrl": "https://picsum.photos/seed/hair-transformation/800/600",
-      "imageHint": "woman after"
+      "imageUrl": "https://picsum.photos/seed/hair-color-reveal/800/600",
+      "imageHint": "hair color after"
     },
     {
       "id": "testimonial-avatar-1",

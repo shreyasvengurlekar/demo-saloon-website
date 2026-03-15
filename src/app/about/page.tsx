@@ -1,5 +1,6 @@
 import { PageHeader } from '@/components/page-header';
 import { AboutSection } from '@/components/sections/about-section';
+import { FaqSection } from '@/components/sections/faq-section';
 
 export default function AboutPage() {
   return (
@@ -9,6 +10,7 @@ export default function AboutPage() {
         subtitle="Learn more about our story, our passion for beauty, and our commitment to you."
       />
       <AboutSection />
+      <FaqSection />
     </>
   );
 }

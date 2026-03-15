@@ -27,7 +27,7 @@ function TestimonialCard({ customerName, avatarId, rating, content }: { customer
     <CarouselItem className="md:basis-1/2 lg:basis-1/3">
       <div className="p-1 h-full">
         <Card className="glass-card flex flex-col justify-between h-full">
-          <CardContent className="p-6">
+          <CardContent className="p-6 flex flex-col flex-grow">
             <div className="flex items-center gap-4">
               <Avatar className="h-16 w-16 border-2 border-primary">
                 {avatar && <AvatarImage src={avatar.imageUrl} alt={avatar.description} data-ai-hint={avatar.imageHint} />}
@@ -38,7 +38,7 @@ function TestimonialCard({ customerName, avatarId, rating, content }: { customer
                 <div className="flex gap-0.5 mt-1">{renderStars()}</div>
               </div>
             </div>
-            <p className="mt-6 text-muted-foreground italic">"{content}"</p>
+            <p className="mt-6 text-muted-foreground italic flex-grow">"{content}"</p>
           </CardContent>
         </Card>
       </div>

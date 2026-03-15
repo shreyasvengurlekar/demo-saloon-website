@@ -3,14 +3,14 @@ import { PageHeader } from '@/components/page-header';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { SERVICES } from '@/lib/constants';
-import { Gem, Scissors, Sparkles, User, Footprints } from 'lucide-react';
+import { Gem, Scissors, Sparkles, User, Hand } from 'lucide-react';
 
 const serviceCategories = [
   { id: 'hair', title: 'Hair Care & Styling', icon: Scissors, services: SERVICES.hair },
   { id: 'skin', title: 'Skin & Beauty', icon: Gem, services: SERVICES.skin },
   { id: 'bridal', title: 'Bridal & Makeup', icon: Sparkles, services: SERVICES.bridal },
   { id: 'grooming', title: "Men's Grooming", icon: User, services: SERVICES.grooming },
-  { id: 'hands_feet', title: 'Hands & Feet', icon: Footprints, services: SERVICES.hands_feet },
+  { id: 'hands_feet', title: 'Hands & Feet', icon: Hand, services: SERVICES.hands_feet },
 ];
 
 export default function ServicesPage() {
