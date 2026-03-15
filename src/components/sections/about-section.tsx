@@ -1,26 +1,16 @@
-import { generateMarketingContent } from "@/ai/flows/generate-marketing-content";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { SITE_INFO } from "@/lib/constants";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { CheckCircle } from "lucide-react";
 import Image from "next/image";
 
-async function AboutContent() {
-  const aboutUsContent = await generateMarketingContent({
-    contentType: "aboutUs",
-    salonName: SITE_INFO.name,
-    location: "Kudal, Sindhudurg",
-    brandPositioning: SITE_INFO.brandPositioning,
-    owners: SITE_INFO.owners,
-    tagline: SITE_INFO.tagline,
-  });
-
+function AboutContent() {
   return (
     <>
-      <h2 className="font-headline text-4xl font-bold text-glow md:text-5xl">{aboutUsContent.title}</h2>
+      <h2 className="font-headline text-4xl font-bold text-glow md:text-5xl">Our Story</h2>
       <p className="mt-4 text-lg text-muted-foreground">
-        {aboutUsContent.content}
+        Welcome to B Beyond, where style meets sophistication. Founded by Pranali and Gauresh Pingulkar, our salon is a haven of luxury and transformation in the heart of Kudal. We believe in the art of beauty and the confidence it inspires, offering a bespoke experience that goes beyond the ordinary.
       </p>
     </>
   );

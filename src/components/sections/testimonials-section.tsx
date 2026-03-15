@@ -1,22 +1,11 @@
-import { generateMarketingContent } from "@/ai/flows/generate-marketing-content";
+
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { SITE_INFO } from "@/lib/constants";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Star, StarHalf } from "lucide-react";
 
-async function TestimonialCard({ customerName, avatarId, rating }: { customerName: string, avatarId: string, rating: number }) {
-  const testimonialContent = await generateMarketingContent({
-    contentType: "testimonial",
-    salonName: SITE_INFO.name,
-    location: "Kudal, Sindhudurg",
-    brandPositioning: SITE_INFO.brandPositioning,
-    owners: SITE_INFO.owners,
-    tagline: SITE_INFO.tagline,
-    customerName: customerName,
-  });
-
+function TestimonialCard({ customerName, avatarId, rating, content }: { customerName: string, avatarId: string, rating: number, content: string }) {
   const avatar = PlaceHolderImages.find(img => img.id === avatarId);
 
   const renderStars = () => {
@@ -48,7 +37,7 @@ async function TestimonialCard({ customerName, avatarId, rating }: { customerNam
                 <div className="flex gap-0.5 mt-1">{renderStars()}</div>
               </div>
             </div>
-            <p className="mt-6 text-muted-foreground italic">"{testimonialContent.content}"</p>
+            <p className="mt-6 text-muted-foreground italic">"{content}"</p>
           </CardContent>
         </Card>
       </div>
@@ -58,11 +47,11 @@ async function TestimonialCard({ customerName, avatarId, rating }: { customerNam
 
 export function TestimonialsSection() {
   const testimonials = [
-    { name: "Priya S.", avatar: "testimonial-avatar-1", rating: 5 },
-    { name: "Rahul K.", avatar: "testimonial-avatar-2", rating: 4.5 },
-    { name: "Anjali M.", avatar: "testimonial-avatar-1", rating: 5 },
-    { name: "Vikram P.", avatar: "testimonial-avatar-2", rating: 5 },
-    { name: "Sneha G.", avatar: "testimonial-avatar-1", rating: 4.5 },
+    { name: "Priya S.", avatar: "testimonial-avatar-1", rating: 5, content: "An absolutely amazing experience! The stylists are true artists. I've never felt more confident. B Beyond is my go-to salon from now on!" },
+    { name: "Rahul K.", avatar: "testimonial-avatar-2", rating: 4.5, content: "Great service and a very professional team. I got the best haircut of my life here. The ambiance is modern and relaxing. Highly recommended!" },
+    { name: "Anjali M.", avatar: "testimonial-avatar-1", rating: 5, content: "The bridal makeup was a dream come true. Pranali and her team made me feel like a queen on my special day. Thank you for the wonderful memories!" },
+    { name: "Vikram P.", avatar: "testimonial-avatar-2", rating: 5, content: "Top-notch grooming services for men. The attention to detail is impressive. It's the perfect place to unwind and get a sharp new look." },
+    { name: "Sneha G.", avatar: "testimonial-avatar-1", rating: 4.5, content: "My hair spa treatment was pure bliss. My hair has never felt so soft and healthy. The luxurious feel of the salon is just the cherry on top." },
   ];
 
   return (
@@ -84,7 +73,7 @@ export function TestimonialsSection() {
         >
           <CarouselContent>
             {testimonials.map((t, index) => (
-              <TestimonialCard key={index} customerName={t.name} avatarId={t.avatar} rating={t.rating} />
+              <TestimonialCard key={index} customerName={t.name} avatarId={t.avatar} rating={t.rating} content={t.content} />
             ))}
           </CarouselContent>
           <CarouselPrevious className="hidden md:flex" />
