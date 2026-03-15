@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Star, StarHalf } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 function TestimonialCard({ customerName, avatarId, rating, content }: { customerName: string, avatarId: string, rating: number, content: string }) {
   const avatar = PlaceHolderImages.find(img => img.id === avatarId);
@@ -56,7 +57,7 @@ export function TestimonialsSection() {
 
   return (
     <section className="bg-background/50 py-20 md:py-32">
-      <div className="container">
+      <div className="container px-4 md:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-headline text-4xl font-bold text-glow md:text-5xl">What Our Clients Say</h2>
           <p className="mt-4 text-lg text-muted-foreground">

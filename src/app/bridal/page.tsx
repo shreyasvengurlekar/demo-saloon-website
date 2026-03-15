@@ -23,7 +23,7 @@ export default function BridalPage() {
         title="Exquisite Bridal Beauty"
         subtitle="Look and feel absolutely radiant on your once-in-a-lifetime day. Our expert bridal team is here to make your dream look a reality."
       />
-      <section className="container">
+      <section className="container px-4 md:px-8">
         <div className="relative h-[60vh] min-h-[400px] w-full overflow-hidden rounded-2xl">
           {heroImage && (
             <Image
@@ -39,7 +39,7 @@ export default function BridalPage() {
         </div>
       </section>
       <section className="py-20 md:py-32">
-        <div className="container grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="container px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="font-headline text-3xl font-bold">Your Perfect Day, Your Perfect Look</h2>
             <p className="mt-4 text-lg text-muted-foreground">

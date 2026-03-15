@@ -8,7 +8,7 @@ type PageHeaderProps = {
 
 export function PageHeader({ title, subtitle, className }: PageHeaderProps) {
   return (
-    <div className={cn('container py-16 md:py-24 text-center', className)}>
+    <div className={cn('container px-4 md:px-8 py-16 md:py-24 text-center', className)}>
       <h1 className="font-headline text-4xl font-bold tracking-tight text-foreground md:text-6xl text-glow">
         {title}
       </h1>
