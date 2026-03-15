@@ -2,111 +2,123 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "Elegant and bright salon interior",
-      "imageUrl": "https://picsum.photos/seed/hero/1920/1080",
+      "description": "Elegant and bright salon interior with modern chairs",
+      "imageUrl": "https://picsum.photos/seed/salon-interior/1920/1080",
       "imageHint": "salon interior"
     },
     {
-      "id": "gallery-interior-1",
-      "description": "A modern and stylish salon reception area",
-      "imageUrl": "https://picsum.photos/seed/interior1/600/800",
-      "imageHint": "modern salon"
-    },
-    {
-      "id": "gallery-interior-2",
-      "description": "Clean and professional hair styling stations",
-      "imageUrl": "https://picsum.photos/seed/interior2/600/800",
-      "imageHint": "styling station"
-    },
-    {
-      "id": "gallery-hair-1",
-      "description": "A woman with a beautiful blonde balayage hairstyle",
-      "imageUrl": "https://picsum.photos/seed/hair1/600/800",
-      "imageHint": "woman hairstyle"
-    },
-    {
-      "id": "gallery-hair-2",
-      "description": "A man with a sharp, modern fade haircut",
-      "imageUrl": "https://picsum.photos/seed/hair2/600/800",
-      "imageHint": "man haircut"
-    },
-    {
-      "id": "gallery-bridal-1",
-      "description": "A stunning Indian bride with intricate makeup",
-      "imageUrl": "https://picsum.photos/seed/bridal1/600/800",
-      "imageHint": "indian bride"
-    },
-    {
-      "id": "gallery-bridal-2",
-      "description": "An elegant bridal hairstyle with floral accessories",
-      "imageUrl": "https://picsum.photos/seed/bridal2/600/800",
-      "imageHint": "bridal hairstyle"
-    },
-    {
-      "id": "gallery-makeup-1",
-      "description": "A model with glamorous, high-fashion makeup",
-      "imageUrl": "https://picsum.photos/seed/makeup1/600/800",
-      "imageHint": "fashion makeup"
-    },
-    {
-      "id": "before-1",
-      "description": "A woman's hair before a styling session",
-      "imageUrl": "https://picsum.photos/seed/before1/800/600",
-      "imageHint": "woman before"
-    },
-    {
-      "id": "after-1",
-      "description": "The same woman's hair after a stunning transformation",
-      "imageUrl": "https://picsum.photos/seed/after1/800/600",
-      "imageHint": "woman after"
-    },
-    {
-      "id": "testimonial-avatar-1",
-      "description": "Portrait of a smiling female customer",
-      "imageUrl": "https://picsum.photos/seed/avatar1/100/100",
-      "imageHint": "smiling woman"
-    },
-    {
-      "id": "testimonial-avatar-2",
-      "description": "Portrait of a smiling male customer",
-      "imageUrl": "https://picsum.photos/seed/avatar2/100/100",
-      "imageHint": "smiling man"
-    },
-    {
-      "id": "owner-pranali",
-      "description": "A professional headshot of co-owner Pranali Pingulkar",
-      "imageUrl": "https://picsum.photos/seed/pranali/400/400",
-      "imageHint": "professional woman"
-    },
-    {
-      "id": "owner-gauresh",
-      "description": "A professional headshot of co-owner Gauresh Pingulkar",
-      "imageUrl": "https://picsum.photos/seed/gauresh/400/400",
-      "imageHint": "professional man"
-    },
-    {
       "id": "service-haircut",
-      "description": "A chic and stylish haircut",
-      "imageUrl": "https://picsum.photos/seed/service1/400/300",
-      "imageHint": "hair styling"
+      "description": "A woman getting a stylish bob haircut",
+      "imageUrl": "https://picsum.photos/seed/haircut-style/400/300",
+      "imageHint": "stylish haircut"
     },
     {
       "id": "service-facial",
-      "description": "A woman receiving a relaxing facial treatment",
-      "imageUrl": "https://picsum.photos/seed/service2/400/300",
+      "description": "A woman receiving a relaxing and rejuvenating facial treatment",
+      "imageUrl": "https://picsum.photos/seed/facial/400/300",
       "imageHint": "facial treatment"
     },
     {
       "id": "service-bridal",
-      "description": "A bride getting her makeup done for her wedding",
-      "imageUrl": "https://picsum.photos/seed/service3/400/300",
+      "description": "A beautiful bride with elegant makeup and hairstyle",
+      "imageUrl": "https://picsum.photos/seed/bride-makeup/400/300",
       "imageHint": "bridal makeup"
     },
     {
       "id": "service-grooming",
-      "description": "A man getting a professional beard trim",
-      "imageUrl": "https://picsum.photos/seed/service4/400/300",
+      "description": "A man getting a professional beard trim and shave",
+      "imageUrl": "https://picsum.photos/seed/man-grooming/400/300",
       "imageHint": "man grooming"
+    },
+    {
+      "id": "owner-pranali",
+      "description": "Professional headshot of co-owner Pranali Pingulkar",
+      "imageUrl": "https://picsum.photos/seed/pranali-owner/400/400",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "owner-gauresh",
+      "description": "Professional headshot of co-owner Gauresh Pingulkar",
+      "imageUrl": "https://picsum.photos/seed/gauresh-owner/400/400",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "before-1",
+      "description": "A woman's hair before a color and styling session",
+      "imageUrl": "https://picsum.photos/seed/before-hair/800/600",
+      "imageHint": "woman before"
+    },
+    {
+      "id": "after-1",
+      "description": "The same woman's hair after a stunning balayage transformation",
+      "imageUrl": "https://picsum.photos/seed/after-hair/800/600",
+      "imageHint": "woman after"
+    },
+    {
+      "id": "testimonial-avatar-1",
+      "description": "Portrait of a smiling female customer with great hair",
+      "imageUrl": "https://picsum.photos/seed/happy-customer-woman/100/100",
+      "imageHint": "happy woman"
+    },
+    {
+      "id": "testimonial-avatar-2",
+      "description": "Portrait of a smiling male customer with a fresh haircut",
+      "imageUrl": "https://picsum.photos/seed/happy-customer-man/100/100",
+      "imageHint": "happy man"
+    },
+    {
+      "id": "gallery-hair-1",
+      "description": "A woman with a beautiful blonde balayage hairstyle",
+      "imageUrl": "https://picsum.photos/seed/gallery-hair1/600/800",
+      "imageHint": "balayage hairstyle"
+    },
+    {
+      "id": "gallery-hair-2",
+      "description": "Close-up of a vibrant, multi-colored hair dye",
+      "imageUrl": "https://picsum.photos/seed/gallery-hair2/600/800",
+      "imageHint": "hair color"
+    },
+    {
+      "id": "gallery-hair-3",
+      "description": "A man with a sharp, modern fade haircut",
+      "imageUrl": "https://picsum.photos/seed/gallery-hair3/600/800",
+      "imageHint": "man haircut"
+    },
+    {
+      "id": "gallery-bridal-1",
+      "description": "A stunning Indian bride with intricate makeup and jewelry",
+      "imageUrl": "https://picsum.photos/seed/gallery-bridal1/600/800",
+      "imageHint": "indian bride"
+    },
+    {
+      "id": "gallery-bridal-2",
+      "description": "An elegant bridal updo hairstyle with floral accessories",
+      "imageUrl": "https://picsum.photos/seed/gallery-bridal2/600/800",
+      "imageHint": "bridal hairstyle"
+    },
+    {
+      "id": "gallery-makeup-1",
+      "description": "A model with glamorous, high-fashion makeup for an event",
+      "imageUrl": "https://picsum.photos/seed/gallery-makeup1/600/800",
+      "imageHint": "fashion makeup"
+    },
+    {
+      "id": "gallery-interior-1",
+      "description": "A modern and stylish salon reception area",
+      "imageUrl": "https://picsum.photos/seed/gallery-interior1/600/800",
+      "imageHint": "modern salon"
+    },
+    {
+      "id": "gallery-interior-2",
+      "description": "Clean and professional hair styling and washing stations",
+      "imageUrl": "https://picsum.photos/seed/gallery-interior2/600/800",
+      "imageHint": "styling station"
+    },
+    {
+      "id": "bridal-hero",
+      "description": "A bride looking radiant on her wedding day",
+      "imageUrl": "https://picsum.photos/seed/bridal-hero/1920/1080",
+      "imageHint": "radiant bride"
     }
   ]
 }

@@ -2,12 +2,9 @@ import Link from "next/link";
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import { NAV_LINKS, SITE_INFO, SOCIAL_LINKS } from "@/lib/constants";
-import { getWhatsAppUrl } from "@/lib/utils";
-import { Facebook, Instagram, MapPin, Phone, Mail, Youtube } from "lucide-react";
+import { Facebook, Instagram, Mail, MapPin, Phone, Youtube } from "lucide-react";
 
 const Footer = () => {
-  const whatsappUrl = getWhatsAppUrl(SITE_INFO.phones[0], "Hello, I'd like to inquire about your services.");
-
   return (
     <footer className="glass-card mt-20 border-t">
       <div className="container mx-auto grid grid-cols-1 gap-12 p-8 md:grid-cols-4 lg:grid-cols-5">
@@ -48,15 +45,15 @@ const Footer = () => {
           <h3 className="font-headline text-lg font-semibold">Contact Us</h3>
           <ul className="flex flex-col gap-3">
             <li className="flex items-start gap-3">
-              <MapPin className="mt-1 h-4 w-4 flex-shrink-0 text-accent" />
+              <MapPin className="mt-1 h-4 w-4 flex-shrink-0 text-primary" />
               <a href={SITE_INFO.googleMapsLink} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">{SITE_INFO.address}</a>
             </li>
             <li className="flex items-center gap-3">
-              <Phone className="h-4 w-4 flex-shrink-0 text-accent" />
+              <Phone className="h-4 w-4 flex-shrink-0 text-primary" />
               <a href={`tel:${SITE_INFO.phones[0]}`} className="text-muted-foreground hover:text-primary">{SITE_INFO.phones[0]}</a>
             </li>
             <li className="flex items-center gap-3">
-              <Mail className="h-4 w-4 flex-shrink-0 text-accent" />
+              <Mail className="h-4 w-4 flex-shrink-0 text-primary" />
               <a href={`mailto:${SITE_INFO.email}`} className="text-muted-foreground hover:text-primary">{SITE_INFO.email}</a>
             </li>
           </ul>
@@ -64,13 +61,18 @@ const Footer = () => {
         
         <div className="flex flex-col gap-4">
           <h3 className="font-headline text-lg font-semibold">Hours</h3>
-          <ul className="flex flex-col gap-2 text-muted-foreground">
-            {SITE_INFO.workingHours.map((line, index) => (
-              <li key={index}>
-                {line}
-              </li>
-            ))}
-          </ul>
+          <div className="text-muted-foreground">
+            <p>
+              <span className="font-semibold text-foreground">Tue – Sun:</span>
+              <br />
+              9:30 AM – 9:30 PM
+            </p>
+            <p className="mt-2">
+              <span className="font-semibold text-foreground">Monday:</span>
+              <br />
+              Closed
+            </p>
+          </div>
         </div>
 
       </div>
