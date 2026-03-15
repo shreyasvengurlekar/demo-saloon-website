@@ -10,7 +10,7 @@ const Header = () => {
       <div className="container mx-auto flex h-20 items-center justify-between p-4">
         <Link href="/" className="flex items-center gap-2">
           <Logo />
-          <span className="font-headline text-xl font-bold">B Beyond Glow</span>
+          <span className="font-headline text-xl font-bold">B Beyond Hair & Beauty Salon</span>
         </Link>
         
         <nav className="glass-card p-1">

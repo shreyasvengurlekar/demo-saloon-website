@@ -32,14 +32,14 @@
     },
     {
       "id": "owner-pranali",
-      "description": "A warm and professional portrait of Pranali Pingulkar, co-owner and lead stylist",
-      "imageUrl": "https://picsum.photos/seed/female-portrait/400/400",
+      "description": "A professional portrait of Pranali Pingulkar, co-owner and lead stylist",
+      "imageUrl": "https://picsum.photos/seed/portrait-female/400/400",
       "imageHint": "woman portrait"
     },
     {
       "id": "owner-gauresh",
-      "description": "A stylish portrait of Gauresh Pingulkar, co-owner and stylist",
-      "imageUrl": "https://picsum.photos/seed/male-portrait/400/400",
+      "description": "A professional portrait of Gauresh Pingulkar, co-owner and stylist",
+      "imageUrl": "https://picsum.photos/seed/portrait-male/400/400",
       "imageHint": "man portrait"
     },
     {

@@ -12,7 +12,7 @@ const Footer = () => {
           <Link href="/" className="flex items-center gap-3">
             <Logo className="h-10 w-10" />
             <div>
-              <p className="font-headline text-2xl font-bold">B Beyond Glow</p>
+              <p className="font-headline text-2xl font-bold">B Beyond Hair &amp; Beauty Salon</p>
               <p className="text-sm text-muted-foreground">{SITE_INFO.tagline}</p>
             </div>
           </Link>
