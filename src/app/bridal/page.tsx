@@ -26,7 +26,7 @@ export default function BridalPage() {
         subtitle="Look and feel absolutely radiant on your once-in-a-lifetime day. Our expert bridal team is here to make your dream look a reality."
       />
       <section className="container px-6 md:px-6">
-        <div className="relative h-[60vh] min-h-[400px] w-full overflow-hidden rounded-lg">
+        <div className="relative h-[50vh] max-h-[500px] min-h-[300px] w-full overflow-hidden rounded-lg">
           {heroImage && (
             <Image
               src={heroImage.imageUrl}

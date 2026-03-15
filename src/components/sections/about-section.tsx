@@ -31,7 +31,7 @@ export function AboutSection() {
             <AboutContent />
           </div>
           <div className="lg:order-1 flex gap-4 justify-center">
-             <div className="relative w-full aspect-[4/5] rounded-[3rem] overflow-hidden">
+             <div className="relative w-full max-w-md aspect-[4/5] rounded-[3rem] overflow-hidden">
                 {aboutImage && (
                     <Image
                     src={aboutImage.imageUrl}

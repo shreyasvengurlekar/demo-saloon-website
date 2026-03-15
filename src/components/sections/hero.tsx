@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -33,7 +34,7 @@ export function Hero() {
                 </Button>
             </div>
             </div>
-            <div className="relative w-full aspect-[4/5] rounded-[3rem] overflow-hidden">
+            <div className="relative w-full max-w-md mx-auto md:max-w-lg aspect-[4/5] rounded-[3rem] overflow-hidden">
                 {heroImage && (
                     <Image
                     src={heroImage.imageUrl}
