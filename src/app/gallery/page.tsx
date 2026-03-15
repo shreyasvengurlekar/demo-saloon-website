@@ -1,3 +1,4 @@
+
 import { PageHeader } from '@/components/page-header';
 import { Card, CardContent } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -14,7 +15,7 @@ export default function GalleryPage() {
         title="Our Gallery"
         subtitle="A glimpse into the transformations and artistry happening every day at B Beyond Salon."
       />
-      <section className="container px-4 md:px-8">
+      <section className="container px-6 md:px-12">
         <div className="columns-1 gap-4 sm:columns-2 md:columns-3 lg:columns-4">
           {galleryImages.map((image) => (
             <Card key={image.id} className="mb-4 break-inside-avoid overflow-hidden">

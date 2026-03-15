@@ -1,3 +1,4 @@
+
 import { PageHeader } from '@/components/page-header';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -19,7 +20,7 @@ export default function ServicesPage() {
         title="Our Services"
         subtitle="Explore our comprehensive range of luxury salon services, designed to make you look and feel your absolute best."
       />
-      <section className="container px-4 md:px-8">
+      <section className="container px-6 md:px-12">
         <Accordion type="single" collapsible defaultValue="hair" className="w-full max-w-4xl mx-auto">
           {serviceCategories.map((category) => (
             <AccordionItem key={category.id} value={category.id}>

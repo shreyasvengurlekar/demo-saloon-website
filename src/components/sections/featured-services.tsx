@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
@@ -40,7 +41,7 @@ const featuredServices = [
 export function FeaturedServices() {
   return (
     <section className="py-20 md:py-32">
-      <div className="container px-4 md:px-8">
+      <div className="container px-6 md:px-12">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-headline text-4xl font-bold text-glow md:text-5xl">Our Signature Services</h2>
           <p className="mt-4 text-lg text-muted-foreground">
