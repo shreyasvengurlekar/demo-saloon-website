@@ -10,8 +10,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { useToast } from '@/hooks/use-toast';
 import { SERVICES, STYLISTS } from '@/lib/constants';
 import { Send } from 'lucide-react';
-import { ToggleGroup, ToggleGroupItem } from '../ui/toggle-group';
-import { Label } from '../ui/label';
+import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
+import { Label } from '@/components/ui/label';
 
 const allServices = Object.values(SERVICES).flat();
 const timeSlots = ['10:00', '11:00', '13:00', '14:00', '15:00', '17:00', '18:00', '20:00'];
