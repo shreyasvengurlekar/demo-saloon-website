@@ -9,7 +9,7 @@ export function Hero() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'hero-man-haircut');
 
   return (
-    <section className="relative h-[80vh] min-h-[500px] w-full flex items-center justify-center text-center text-white">
+    <section className="relative h-[80vh] min-h-[500px] w-full flex items-center justify-center text-center text-white overflow-hidden">
       {heroImage && (
         <Image
           src={heroImage.imageUrl}
@@ -21,7 +21,7 @@ export function Hero() {
         />
       )}
       <div className="absolute inset-0 bg-black/50" />
-      <div className="relative z-10 container mx-auto px-12 md:px-16">
+      <div className="relative z-10 container mx-auto px-12 md:px-16 text-center">
         <div className="max-w-3xl mx-auto">
           <h1 className="font-headline text-5xl font-bold tracking-tight text-white md:text-6xl lg:text-7xl">
             {SITE_INFO.tagline.split('. ').map((part, i) => <span key={i} className="block">{part}</span>)}
@@ -35,7 +35,7 @@ export function Hero() {
                 Book an appointment
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="rounded-full font-bold text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-black">
+            <Button asChild variant="outline" size="lg" className="rounded-full font-bold text-lg px-8 py-6 border-white text-white bg-transparent hover:bg-white hover:text-black">
               <Link href="/services">
                 Our Services
               </Link>
