@@ -1,3 +1,112 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Abstract futuristic glowing lines",
+      "imageUrl": "https://picsum.photos/seed/hero/1920/1080",
+      "imageHint": "abstract glow"
+    },
+    {
+      "id": "gallery-interior-1",
+      "description": "Elegant salon interior",
+      "imageUrl": "https://picsum.photos/seed/interior1/600/800",
+      "imageHint": "salon interior"
+    },
+    {
+      "id": "gallery-interior-2",
+      "description": "Modern salon washing stations",
+      "imageUrl": "https://picsum.photos/seed/interior2/600/800",
+      "imageHint": "salon styling"
+    },
+    {
+      "id": "gallery-hair-1",
+      "description": "Stylish haircut for women",
+      "imageUrl": "https://picsum.photos/seed/hair1/600/800",
+      "imageHint": "hair styling"
+    },
+    {
+      "id": "gallery-hair-2",
+      "description": "Men's modern haircut",
+      "imageUrl": "https://picsum.photos/seed/hair2/600/800",
+      "imageHint": "men haircut"
+    },
+    {
+      "id": "gallery-bridal-1",
+      "description": "Beautiful bridal makeup",
+      "imageUrl": "https://picsum.photos/seed/bridal1/600/800",
+      "imageHint": "bridal makeup"
+    },
+    {
+      "id": "gallery-bridal-2",
+      "description": "Elegant bridal hairdo",
+      "imageUrl": "https://picsum.photos/seed/bridal2/600/800",
+      "imageHint": "bridal hair"
+    },
+    {
+      "id": "gallery-makeup-1",
+      "description": "Creative party makeup",
+      "imageUrl": "https://picsum.photos/seed/makeup1/600/800",
+      "imageHint": "glamour makeup"
+    },
+    {
+      "id": "before-1",
+      "description": "Before hair transformation",
+      "imageUrl": "https://picsum.photos/seed/before1/800/600",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "after-1",
+      "description": "After hair transformation",
+      "imageUrl": "https://picsum.photos/seed/after1/800/600",
+      "imageHint": "woman styled"
+    },
+    {
+      "id": "testimonial-avatar-1",
+      "description": "Happy female customer avatar",
+      "imageUrl": "https://picsum.photos/seed/avatar1/100/100",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "testimonial-avatar-2",
+      "description": "Happy male customer avatar",
+      "imageUrl": "https://picsum.photos/seed/avatar2/100/100",
+      "imageHint": "man smiling"
+    },
+    {
+      "id": "owner-pranali",
+      "description": "Profile of Pranali Pingulkar",
+      "imageUrl": "https://picsum.photos/seed/pranali/400/400",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "owner-gauresh",
+      "description": "Profile of Gauresh Pingulkar",
+      "imageUrl": "https://picsum.photos/seed/gauresh/400/400",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "service-haircut",
+      "description": "Iconic image for haircut service",
+      "imageUrl": "https://picsum.photos/seed/service1/400/300",
+      "imageHint": "hair styling"
+    },
+    {
+      "id": "service-facial",
+      "description": "Iconic image for facial service",
+      "imageUrl": "https://picsum.photos/seed/service2/400/300",
+      "imageHint": "beauty spa"
+    },
+    {
+      "id": "service-bridal",
+      "description": "Iconic image for bridal makeup service",
+      "imageUrl": "https://picsum.photos/seed/service3/400/300",
+      "imageHint": "bridal makeup"
+    },
+    {
+      "id": "service-grooming",
+      "description": "Iconic image for men's grooming service",
+      "imageUrl": "https://picsum.photos/seed/service4/400/300",
+      "imageHint": "men grooming"
+    }
+  ]
 }
