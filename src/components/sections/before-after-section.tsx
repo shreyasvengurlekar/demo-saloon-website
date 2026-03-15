@@ -1,11 +1,9 @@
-
 "use client";
 
 import Image from "next/image";
 import * as React from "react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { cn } from "@/lib/utils";
-import { MoveHorizontal } from "lucide-react";
+import { ChevronsLeftRight } from "lucide-react";
 
 const BeforeAfterSlider = ({ beforeImg, afterImg }: { beforeImg: any; afterImg: any }) => {
   const [sliderPosition, setSliderPosition] = React.useState(50);
@@ -20,7 +18,8 @@ const BeforeAfterSlider = ({ beforeImg, afterImg }: { beforeImg: any; afterImg: 
   };
 
   const handleMouseDown = (e: React.MouseEvent<HTMLDivElement>) => {
-    const onMouseMove = (e: MouseEvent) => handleMove(e.clientX);
+    e.preventDefault();
+    const onMouseMove = (moveEvent: MouseEvent) => handleMove(moveEvent.clientX);
     const onMouseUp = () => {
       window.removeEventListener("mousemove", onMouseMove);
       window.removeEventListener("mouseup", onMouseUp);
@@ -44,7 +43,7 @@ const BeforeAfterSlider = ({ beforeImg, afterImg }: { beforeImg: any; afterImg: 
           alt={beforeImg.description}
           fill
           priority
-          className="object-cover grayscale"
+          className="object-cover grayscale pointer-events-none"
           data-ai-hint={beforeImg.imageHint}
         />
       )}
@@ -60,24 +59,23 @@ const BeforeAfterSlider = ({ beforeImg, afterImg }: { beforeImg: any; afterImg: 
             alt={afterImg.description}
             fill
             priority
-            className="object-cover"
+            className="object-cover pointer-events-none"
             data-ai-hint={afterImg.imageHint}
           />
         </div>
       )}
       <div
-        className="absolute inset-y-0 z-20 w-1 cursor-ew-resize bg-primary/50"
+        className="absolute inset-y-0 z-20 w-1 bg-primary/50"
         style={{
           left: `calc(${sliderPosition}% - 2px)`,
         }}
       >
         <div
-          className="absolute inset-y-0 -left-3 w-8"
+          className="absolute top-1/2 left-1/2 h-12 w-12 -translate-x-1/2 -translate-y-1/2 rounded-full glass-card border-2 border-primary bg-background/50 flex items-center justify-center transition-transform group-hover:scale-110 cursor-ew-resize"
           onMouseDown={handleMouseDown}
           onTouchMove={handleTouchMove}
-        />
-        <div className="absolute top-1/2 left-1/2 h-12 w-12 -translate-x-1/2 -translate-y-1/2 rounded-full glass-card border-2 border-primary bg-background/50 flex items-center justify-center transition-transform group-hover:scale-110">
-          <MoveHorizontal className="w-6 h-6 text-primary" />
+        >
+          <ChevronsLeftRight className="w-6 h-6 text-primary" />
         </div>
       </div>
     </div>
@@ -89,17 +87,15 @@ export function BeforeAfterSection() {
   const afterImage = PlaceHolderImages.find((img) => img.id === 'after-1');
 
   return (
-    <section className="py-20 md:py-32">
-      <div className="container px-6 md:px-12">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="font-headline text-4xl font-bold text-glow md:text-5xl">Transformations</h2>
-          <p className="mt-4 text-lg text-muted-foreground">
-            Witness the magic. Real results, real confidence.
-          </p>
-        </div>
-        <div className="mt-16">
-          <BeforeAfterSlider beforeImg={beforeImage} afterImg={afterImage} />
-        </div>
+    <section className="container px-12 md:px-24 py-20 md:py-32">
+      <div className="mx-auto max-w-2xl text-center">
+        <h2 className="font-headline text-4xl font-bold text-glow md:text-5xl">Transformations</h2>
+        <p className="mt-4 text-lg text-muted-foreground">
+          Witness the magic. Real results, real confidence.
+        </p>
+      </div>
+      <div className="mt-16">
+        <BeforeAfterSlider beforeImg={beforeImage} afterImg={afterImage} />
       </div>
     </section>
   );
