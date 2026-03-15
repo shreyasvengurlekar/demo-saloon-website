@@ -8,9 +8,12 @@ import Image from "next/image";
 function AboutContent() {
   return (
     <>
-      <h2 className="font-headline text-4xl font-bold md:text-5xl">Discover Why Families Trust B Beyond</h2>
+      <h2 className="font-headline text-4xl font-bold md:text-5xl">Our Story: A Passion for Beauty & Confidence</h2>
       <p className="mt-4 text-lg text-muted-foreground">
-        At B Beyond, we believe that quality support should be more than just a service—it should be a seamless part of your daily life. Our name reflects our mission: to provide a complete spectrum of care, tailored to the unique needs of every individual we serve.
+        B Beyond was born from a shared passion for artistry and a commitment to helping our clients feel like the best version of themselves. We believe that a great hairstyle or a perfect beauty treatment is more than just a service—it's a form of self-expression and a boost of confidence.
+      </p>
+      <p className="mt-4 text-muted-foreground">
+        Led by our founders, Pranali and Gauresh Pingulkar, our team is dedicated to providing a luxurious, welcoming experience. We combine modern techniques with personalized care to create looks that are both timeless and on-trend. Step into our salon and let us help you elevate your style and define your confidence.
       </p>
     </>
   );

@@ -2,129 +2,129 @@
   "placeholderImages": [
     {
       "id": "hero-man-haircut",
-      "description": "A man getting a stylish haircut from a barber",
-      "imageUrl": "https://picsum.photos/seed/man-haircut-hero/800/1000",
-      "imageHint": "man haircut"
+      "description": "A stylish woman with beautiful hair looking confidently towards the future",
+      "imageUrl": "https://picsum.photos/seed/hero-woman-style-v3/800/1000",
+      "imageHint": "stylish woman"
     },
     {
       "id": "service-haircut",
-      "description": "A woman getting a stylish bob haircut",
-      "imageUrl": "https://picsum.photos/seed/haircut-style-new/400/300",
-      "imageHint": "stylish haircut"
+      "description": "A woman showing off her chic and modern haircut in a salon",
+      "imageUrl": "https://picsum.photos/seed/service-haircut-v3/400/300",
+      "imageHint": "modern haircut"
     },
     {
       "id": "service-facial",
-      "description": "A woman receiving a relaxing and rejuvenating facial treatment",
-      "imageUrl": "https://picsum.photos/seed/facial-new/400/300",
-      "imageHint": "facial treatment"
+      "description": "A woman with her eyes closed, enjoying a professional and relaxing facial",
+      "imageUrl": "https://picsum.photos/seed/service-facial-v3/400/300",
+      "imageHint": "relaxing facial"
     },
     {
       "id": "service-bridal",
-      "description": "A beautiful bride with elegant makeup and hairstyle",
-      "imageUrl": "https://picsum.photos/seed/bride-makeup-new/400/300",
-      "imageHint": "bridal makeup"
+      "description": "A beautiful bride with elegant makeup and a stunning hairstyle",
+      "imageUrl": "https://picsum.photos/seed/service-bridal-v3/400/300",
+      "imageHint": "elegant bride"
     },
     {
       "id": "service-grooming",
-      "description": "A man getting a professional beard trim and shave",
-      "imageUrl": "https://picsum.photos/seed/man-grooming-new/400/300",
-      "imageHint": "man grooming"
+      "description": "A dapper man receiving a precision beard trim in a stylish barbershop",
+      "imageUrl": "https://picsum.photos/seed/service-grooming-v3/400/300",
+      "imageHint": "beard trim"
     },
     {
       "id": "owner-pranali",
-      "description": "A professional portrait of Pranali Pingulkar, co-owner and lead stylist",
-      "imageUrl": "https://picsum.photos/seed/woman-portrait-new/400/500",
-      "imageHint": "woman portrait"
+      "description": "Professional headshot of a confident female hair stylist with a warm smile",
+      "imageUrl": "https://picsum.photos/seed/owner-pranali-v3/400/500",
+      "imageHint": "female stylist"
     },
     {
       "id": "owner-gauresh",
-      "description": "A professional portrait of Gauresh Pingulkar, co-owner and stylist",
-      "imageUrl": "https://picsum.photos/seed/man-portrait-new/400/500",
-      "imageHint": "man portrait"
+      "description": "Professional headshot of a friendly male hair stylist looking approachable",
+      "imageUrl": "https://picsum.photos/seed/owner-gauresh-v3/400/500",
+      "imageHint": "male stylist"
     },
     {
       "id": "before-1",
-      "description": "A woman's hair before a color and styling session, shown in grayscale",
-      "imageUrl": "https://picsum.photos/seed/hair-reveal-new/800/600",
-      "imageHint": "hair color before"
+      "description": "A woman's hair before an amazing color transformation, shown in grayscale",
+      "imageUrl": "https://picsum.photos/seed/hair-magic-v3/800/600",
+      "imageHint": "hair before"
     },
     {
       "id": "after-1",
-      "description": "The same woman's hair after a stunning balayage transformation, shown in full color",
-      "imageUrl": "https://picsum.photos/seed/hair-reveal-new/800/600",
-      "imageHint": "hair color after"
+      "description": "The same woman's hair after receiving a vibrant, head-turning new color",
+      "imageUrl": "https://picsum.photos/seed/hair-magic-v3/800/600",
+      "imageHint": "hair after"
     },
     {
       "id": "testimonial-avatar-1",
-      "description": "Portrait of a smiling female customer with great hair",
-      "imageUrl": "https://picsum.photos/seed/happy-woman-new/100/100",
-      "imageHint": "happy woman"
+      "description": "A happy female client smiling after her salon visit",
+      "imageUrl": "https://picsum.photos/seed/testimonial-woman-v3/100/100",
+      "imageHint": "happy client"
     },
     {
       "id": "testimonial-avatar-2",
-      "description": "Portrait of a smiling male customer with a fresh haircut",
-      "imageUrl": "https://picsum.photos/seed/happy-man-new/100/100",
+      "description": "A happy male client with a fresh haircut",
+      "imageUrl": "https://picsum.photos/seed/testimonial-man-v3/100/100",
       "imageHint": "happy man"
     },
     {
       "id": "gallery-hair-1",
-      "description": "A woman with a beautiful blonde balayage hairstyle",
-      "imageUrl": "https://picsum.photos/seed/gallery-hair1-new/600/800",
+      "description": "A woman with a stunning blonde balayage hairstyle",
+      "imageUrl": "https://picsum.photos/seed/gallery-hair1-v3/600/800",
       "imageHint": "balayage hairstyle"
     },
     {
       "id": "gallery-hair-2",
-      "description": "Close-up of a vibrant, multi-colored hair dye",
-      "imageUrl": "https://picsum.photos/seed/gallery-hair2-new/600/800",
-      "imageHint": "hair color"
+      "description": "A detailed shot of a creative and colorful hair dye job",
+      "imageUrl": "https://picsum.photos/seed/gallery-hair2-v3/600/800",
+      "imageHint": "colorful hair"
     },
     {
       "id": "gallery-hair-3",
-      "description": "A man with a sharp, modern fade haircut",
-      "imageUrl": "https://picsum.photos/seed/gallery-hair3-new/600/800",
-      "imageHint": "man haircut"
+      "description": "A man with a very sharp and modern fade haircut",
+      "imageUrl": "https://picsum.photos/seed/gallery-hair3-v3/600/800",
+      "imageHint": "fade haircut"
     },
     {
       "id": "gallery-bridal-1",
       "description": "A stunning Indian bride with intricate makeup and jewelry",
-      "imageUrl": "https://picsum.photos/seed/gallery-bridal1-new/600/800",
+      "imageUrl": "https://picsum.photos/seed/gallery-bridal1-v3/600/800",
       "imageHint": "indian bride"
     },
     {
       "id": "gallery-bridal-2",
-      "description": "An elegant bridal updo hairstyle with floral accessories",
-      "imageUrl": "https://picsum.photos/seed/gallery-bridal2-new/600/800",
-      "imageHint": "bridal hairstyle"
+      "description": "An elegant bridal updo with delicate floral accessories",
+      "imageUrl": "https://picsum.photos/seed/gallery-bridal2-v3/600/800",
+      "imageHint": "bridal updo"
     },
     {
       "id": "gallery-makeup-1",
-      "description": "A model with glamorous, high-fashion makeup for an event",
-      "imageUrl": "https://picsum.photos/seed/gallery-makeup1-new/600/800",
+      "description": "A model showing off glamorous, high-fashion makeup for a special event",
+      "imageUrl": "https://picsum.photos/seed/gallery-makeup1-v3/600/800",
       "imageHint": "fashion makeup"
     },
     {
       "id": "gallery-interior-1",
-      "description": "A modern and stylish salon reception area",
-      "imageUrl": "https://picsum.photos/seed/gallery-interior1-new/600/800",
+      "description": "A view of a modern and stylish salon reception and waiting area",
+      "imageUrl": "https://picsum.photos/seed/gallery-interior1-v3/600/800",
       "imageHint": "modern salon"
     },
     {
       "id": "gallery-interior-2",
-      "description": "Clean and professional hair styling and washing stations",
-      "imageUrl": "https://picsum.photos/seed/gallery-interior2-new/600/800",
+      "description": "Immaculately clean and professional hair styling and washing stations",
+      "imageUrl": "https://picsum.photos/seed/gallery-interior2-v3/600/800",
       "imageHint": "styling station"
     },
     {
       "id": "bridal-hero",
-      "description": "A bride looking radiant on her wedding day",
-      "imageUrl": "https://picsum.photos/seed/bridal-hero-new/1200/800",
+      "description": "A bride looking absolutely radiant on her wedding day",
+      "imageUrl": "https://picsum.photos/seed/bridal-hero-v3/1200/800",
       "imageHint": "radiant bride"
     },
     {
       "id": "about-section-image",
-      "description": "A stylist giving a client a facial treatment in a calm spa environment.",
-      "imageUrl": "https://picsum.photos/seed/about-facial/800/1000",
-      "imageHint": "spa facial"
+      "description": "The bright, clean, and welcoming interior of a modern luxury salon",
+      "imageUrl": "https://picsum.photos/seed/about-interior-v3/800/1000",
+      "imageHint": "luxury salon"
     }
   ]
 }
