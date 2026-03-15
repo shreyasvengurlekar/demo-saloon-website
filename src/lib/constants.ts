@@ -98,3 +98,11 @@ export const FAQ_DATA = [
       answer: "For detailed pricing on our services and packages, please give us a call or send a message on WhatsApp. Our team will be happy to provide all the information you need."
     }
   ];
+
+  export const STYLISTS = [
+    { name: "Any Available Stylist" },
+    { name: "Pranali Pingulkar (Senior Stylist)" },
+    { name: "Gauresh Pingulkar (Senior Stylist)" },
+    { name: "Jenny Wilson" },
+    { name: "Robert Fox" },
+  ];

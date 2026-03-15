@@ -1,25 +1,22 @@
 
-import { PageHeader } from '@/components/page-header';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { AppointmentForm } from '@/components/forms/appointment-form';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
 export default function BookAppointmentPage() {
   return (
     <>
-      <PageHeader
-        title="Book Your Appointment"
-        subtitle="Fill out the form below to request an appointment. We'll contact you to confirm the date and time."
-      />
+      <div className="container px-6 pt-16 pb-8 text-center">
+        <h1 className="font-headline text-4xl font-bold tracking-tight text-foreground md:text-5xl">
+          Book an Appointment
+        </h1>
+        <p className="mt-4 max-w-2xl mx-auto text-muted-foreground">
+          Choose your preferred date, time, and service to schedule your visit.
+        </p>
+      </div>
       <section className="container px-6 md:px-6">
-        <div className="max-w-2xl mx-auto">
+        <div className="mx-auto max-w-3xl">
           <Card>
-            <CardHeader>
-              <CardTitle>Appointment Request</CardTitle>
-              <CardDescription>
-                Please provide your details and we will get in touch to finalize your booking.
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
+            <CardContent className="p-6 md:p-8">
               <AppointmentForm />
             </CardContent>
           </Card>
