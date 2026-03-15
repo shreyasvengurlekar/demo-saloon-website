@@ -4,48 +4,43 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { SITE_INFO } from "@/lib/constants";
-import { ArrowRight } from "lucide-react";
 
 export function Hero() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'hero-man-haircut');
 
   return (
-    <section className="py-20 md:py-32">
-      <div className="container mx-auto px-6 md:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
-            <div className="max-w-xl text-center md:text-left">
-            <p className="font-semibold text-primary">Happy Customer with our services</p>
-            <h1 className="font-headline text-5xl font-bold tracking-tight text-foreground md:text-6xl lg:text-7xl mt-2">
-                {SITE_INFO.tagline.split('. ').map((part, i) => <span key={i} className="block">{part}</span>)}
-            </h1>
-            <p className="mt-6 max-w-xl text-lg text-muted-foreground mx-auto md:mx-0">
-                Experience personalized spa and wellness care that nurtures your body, mind, and spirit.
-            </p>
-            <div className="mt-10 flex flex-wrap gap-4 justify-center md:justify-start">
-                <Button asChild size="lg" className="rounded-full font-bold text-lg px-8 py-6">
-                <Link href="/book-appointment">
-                    Book an appointment
-                </Link>
-                </Button>
-                <Button asChild variant="outline" size="lg" className="rounded-full font-bold text-lg px-8 py-6">
-                <Link href="/services">
-                    Our Services
-                </Link>
-                </Button>
-            </div>
-            </div>
-            <div className="relative w-full max-w-md mx-auto md:max-w-lg aspect-[4/5] rounded-[3rem] overflow-hidden">
-                {heroImage && (
-                    <Image
-                    src={heroImage.imageUrl}
-                    alt={heroImage.description}
-                    fill
-                    priority
-                    className="object-cover"
-                    data-ai-hint={heroImage.imageHint}
-                    />
-                )}
-            </div>
+    <section className="relative h-[80vh] min-h-[500px] w-full flex items-center justify-center text-center text-white">
+      {heroImage && (
+        <Image
+          src={heroImage.imageUrl}
+          alt={heroImage.description}
+          fill
+          priority
+          className="object-cover"
+          data-ai-hint={heroImage.imageHint}
+        />
+      )}
+      <div className="absolute inset-0 bg-black/50" />
+      <div className="relative z-10 container mx-auto px-12 md:px-16">
+        <div className="max-w-3xl mx-auto">
+          <h1 className="font-headline text-5xl font-bold tracking-tight text-white md:text-6xl lg:text-7xl">
+            {SITE_INFO.tagline.split('. ').map((part, i) => <span key={i} className="block">{part}</span>)}
+          </h1>
+          <p className="mt-6 max-w-xl text-lg text-white/90 mx-auto">
+            Experience personalized spa and wellness care that nurtures your body, mind, and spirit.
+          </p>
+          <div className="mt-10 flex flex-wrap gap-4 justify-center">
+            <Button asChild size="lg" className="rounded-full font-bold text-lg px-8 py-6">
+              <Link href="/book-appointment">
+                Book an appointment
+              </Link>
+            </Button>
+            <Button asChild variant="outline" size="lg" className="rounded-full font-bold text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-black">
+              <Link href="/services">
+                Our Services
+              </Link>
+            </Button>
+          </div>
         </div>
       </div>
     </section>
