@@ -7,8 +7,8 @@ export default function manifest(): MetadataRoute.Manifest {
     description: 'B Beyond Hair & Beauty Salon - Premium Salon in Kudal, Sindhudurg. Hair, Beauty, Confidence. Beyond.',
     start_url: '/',
     display: 'standalone',
-    background_color: '#111319',
-    theme_color: '#4928BF',
+    background_color: '#FCF8F5',
+    theme_color: '#F7668F',
     icons: [
       {
         src: '/favicon.ico',

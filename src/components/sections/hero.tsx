@@ -26,7 +26,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-background via-transparent to-transparent" />
       <div className="container relative z-10 flex h-full flex-col items-start justify-center text-left">
         <div className="max-w-3xl">
-          <h1 className="font-headline text-5xl font-bold tracking-tight text-white md:text-7xl lg:text-8xl">
+          <h1 className="font-headline text-5xl font-bold tracking-tight text-foreground md:text-7xl lg:text-8xl">
             <span className="block text-glow bg-clip-text text-transparent bg-gradient-to-br from-accent to-primary">
               {SITE_INFO.tagline.split('. ').slice(0, 2).join('. ')}.
             </span>
@@ -43,7 +43,7 @@ export function Hero() {
                 Book Now <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="rounded-full bg-transparent border-accent text-accent font-bold text-lg px-8 py-6 backdrop-blur-sm transition-transform hover:scale-105 hover:bg-accent/10">
+            <Button asChild variant="outline" size="lg" className="rounded-full bg-card/50 border-accent text-accent font-bold text-lg px-8 py-6 backdrop-blur-sm transition-transform hover:scale-105 hover:bg-accent/10 hover:text-accent-foreground">
               <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
                 <MessageSquare className="mr-2 h-5 w-5" /> WhatsApp
               </a>

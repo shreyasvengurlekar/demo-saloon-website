@@ -9,7 +9,7 @@ const Footer = () => {
   const whatsappUrl = getWhatsAppUrl(SITE_INFO.phones[0], "Hello, I'd like to inquire about your services.");
 
   return (
-    <footer className="glass-card mt-20 border-t-2 border-primary/20">
+    <footer className="glass-card mt-20 border-t">
       <div className="container mx-auto grid grid-cols-1 gap-12 p-8 md:grid-cols-4 lg:grid-cols-5">
         <div className="col-span-1 flex flex-col gap-4 md:col-span-4 lg:col-span-2">
           <Link href="/" className="flex items-center gap-3">
@@ -65,10 +65,9 @@ const Footer = () => {
         <div className="flex flex-col gap-4">
           <h3 className="font-headline text-lg font-semibold">Hours</h3>
           <ul className="flex flex-col gap-2 text-muted-foreground">
-            {SITE_INFO.workingHours.map(wh => (
-              <li key={wh.day} className="flex justify-between">
-                <span>{wh.day}:</span>
-                <span className="font-medium text-foreground">{wh.hours}</span>
+            {SITE_INFO.workingHours.map((line, index) => (
+              <li key={index}>
+                {line}
               </li>
             ))}
           </ul>

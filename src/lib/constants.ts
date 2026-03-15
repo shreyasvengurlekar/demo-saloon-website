@@ -13,13 +13,8 @@ export const SITE_INFO = {
   address: "Near Bus Stand, Pushpa Hotel, Kelbai Mandir Road, Kudal, Sindhudurg, 416520",
   googleMapsLink: "https://www.google.com/maps/place/B+beyond+hair+%26+beauty+saloon+kudal,sindhudurg/@16.0110193,73.6849464,60m/data=!3m1!1e3!4m6!3m5!1s0x3bc00ff9c9fa6d43:0x5cdc64de762b62a0!8m2!3d16.0109857!4d73.6849705!16s%2Fg%2F11hdvwn9b3?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D",
   workingHours: [
-    { day: "Monday", hours: "Closed" },
-    { day: "Tuesday", hours: "9:30 AM – 9:30 PM" },
-    { day: "Wednesday", hours: "9:30 AM – 9:30 PM" },
-    { day: "Thursday", hours: "9:30 AM – 9:30 PM" },
-    { day: "Friday", hours: "9:30 AM – 9:30 PM" },
-    { day: "Saturday", hours: "9:30 AM – 9:30 PM" },
-    { day: "Sunday", hours: "9:30 AM – 9:30 PM" },
+    "Tue - Sun: 9:30 AM - 9:30 PM",
+    "Monday: Closed",
   ],
   brandPositioning: "A premium unisex salon in Kudal, Sindhudurg, with a modern, elegant, and futuristic identity, delivering luxury, style, and trust for local customers.",
 };

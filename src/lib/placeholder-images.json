@@ -2,111 +2,111 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "Abstract futuristic glowing lines",
+      "description": "Elegant and bright salon interior",
       "imageUrl": "https://picsum.photos/seed/hero/1920/1080",
-      "imageHint": "abstract glow"
-    },
-    {
-      "id": "gallery-interior-1",
-      "description": "Elegant salon interior",
-      "imageUrl": "https://picsum.photos/seed/interior1/600/800",
       "imageHint": "salon interior"
     },
     {
+      "id": "gallery-interior-1",
+      "description": "A modern and stylish salon reception area",
+      "imageUrl": "https://picsum.photos/seed/interior1/600/800",
+      "imageHint": "modern salon"
+    },
+    {
       "id": "gallery-interior-2",
-      "description": "Modern salon washing stations",
+      "description": "Clean and professional hair styling stations",
       "imageUrl": "https://picsum.photos/seed/interior2/600/800",
-      "imageHint": "salon styling"
+      "imageHint": "styling station"
     },
     {
       "id": "gallery-hair-1",
-      "description": "Stylish haircut for women",
+      "description": "A woman with a beautiful blonde balayage hairstyle",
       "imageUrl": "https://picsum.photos/seed/hair1/600/800",
-      "imageHint": "hair styling"
+      "imageHint": "woman hairstyle"
     },
     {
       "id": "gallery-hair-2",
-      "description": "Men's modern haircut",
+      "description": "A man with a sharp, modern fade haircut",
       "imageUrl": "https://picsum.photos/seed/hair2/600/800",
-      "imageHint": "men haircut"
+      "imageHint": "man haircut"
     },
     {
       "id": "gallery-bridal-1",
-      "description": "Beautiful bridal makeup",
+      "description": "A stunning Indian bride with intricate makeup",
       "imageUrl": "https://picsum.photos/seed/bridal1/600/800",
-      "imageHint": "bridal makeup"
+      "imageHint": "indian bride"
     },
     {
       "id": "gallery-bridal-2",
-      "description": "Elegant bridal hairdo",
+      "description": "An elegant bridal hairstyle with floral accessories",
       "imageUrl": "https://picsum.photos/seed/bridal2/600/800",
-      "imageHint": "bridal hair"
+      "imageHint": "bridal hairstyle"
     },
     {
       "id": "gallery-makeup-1",
-      "description": "Creative party makeup",
+      "description": "A model with glamorous, high-fashion makeup",
       "imageUrl": "https://picsum.photos/seed/makeup1/600/800",
-      "imageHint": "glamour makeup"
+      "imageHint": "fashion makeup"
     },
     {
       "id": "before-1",
-      "description": "Before hair transformation",
+      "description": "A woman's hair before a styling session",
       "imageUrl": "https://picsum.photos/seed/before1/800/600",
-      "imageHint": "woman portrait"
+      "imageHint": "woman before"
     },
     {
       "id": "after-1",
-      "description": "After hair transformation",
+      "description": "The same woman's hair after a stunning transformation",
       "imageUrl": "https://picsum.photos/seed/after1/800/600",
-      "imageHint": "woman styled"
+      "imageHint": "woman after"
     },
     {
       "id": "testimonial-avatar-1",
-      "description": "Happy female customer avatar",
+      "description": "Portrait of a smiling female customer",
       "imageUrl": "https://picsum.photos/seed/avatar1/100/100",
-      "imageHint": "woman smiling"
+      "imageHint": "smiling woman"
     },
     {
       "id": "testimonial-avatar-2",
-      "description": "Happy male customer avatar",
+      "description": "Portrait of a smiling male customer",
       "imageUrl": "https://picsum.photos/seed/avatar2/100/100",
-      "imageHint": "man smiling"
+      "imageHint": "smiling man"
     },
     {
       "id": "owner-pranali",
-      "description": "Profile of Pranali Pingulkar",
+      "description": "A professional headshot of co-owner Pranali Pingulkar",
       "imageUrl": "https://picsum.photos/seed/pranali/400/400",
-      "imageHint": "woman portrait"
+      "imageHint": "professional woman"
     },
     {
       "id": "owner-gauresh",
-      "description": "Profile of Gauresh Pingulkar",
+      "description": "A professional headshot of co-owner Gauresh Pingulkar",
       "imageUrl": "https://picsum.photos/seed/gauresh/400/400",
-      "imageHint": "man portrait"
+      "imageHint": "professional man"
     },
     {
       "id": "service-haircut",
-      "description": "Iconic image for haircut service",
+      "description": "A chic and stylish haircut",
       "imageUrl": "https://picsum.photos/seed/service1/400/300",
       "imageHint": "hair styling"
     },
     {
       "id": "service-facial",
-      "description": "Iconic image for facial service",
+      "description": "A woman receiving a relaxing facial treatment",
       "imageUrl": "https://picsum.photos/seed/service2/400/300",
-      "imageHint": "beauty spa"
+      "imageHint": "facial treatment"
     },
     {
       "id": "service-bridal",
-      "description": "Iconic image for bridal makeup service",
+      "description": "A bride getting her makeup done for her wedding",
       "imageUrl": "https://picsum.photos/seed/service3/400/300",
       "imageHint": "bridal makeup"
     },
     {
       "id": "service-grooming",
-      "description": "Iconic image for men's grooming service",
+      "description": "A man getting a professional beard trim",
       "imageUrl": "https://picsum.photos/seed/service4/400/300",
-      "imageHint": "men grooming"
+      "imageHint": "man grooming"
     }
   ]
 }
