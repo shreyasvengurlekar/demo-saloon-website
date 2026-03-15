@@ -36,7 +36,7 @@ const featuredServices = [
 export function FeaturedServices() {
   return (
     <section className="py-20 md:py-32 bg-secondary/30">
-      <div className="container px-6 md:px-6">
+      <div className="container mx-auto px-6 md:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-headline text-4xl font-bold md:text-5xl">Our Signature Services</h2>
           <p className="mt-4 text-lg text-muted-foreground">

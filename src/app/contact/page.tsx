@@ -12,7 +12,7 @@ export default function ContactPage() {
         title="Contact Us"
         subtitle="We're here to help! Reach out with any questions or to schedule your next appointment."
       />
-      <section className="container px-6 md:px-6">
+      <section className="container mx-auto px-6 md:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-1 space-y-8">
             <Card>

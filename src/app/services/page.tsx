@@ -20,7 +20,7 @@ export default function ServicesPage() {
         title="Our Services"
         subtitle="Explore our comprehensive range of luxury salon services, designed to make you look and feel your absolute best."
       />
-      <section className="container px-6 md:px-6">
+      <section className="container mx-auto px-6 md:px-8">
         <Accordion type="single" collapsible defaultValue="hair" className="w-full max-w-4xl mx-auto">
           {serviceCategories.map((category) => (
             <AccordionItem key={category.id} value={category.id}>

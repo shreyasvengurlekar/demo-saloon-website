@@ -25,9 +25,9 @@ export function AboutSection() {
   
   return (
     <section className="overflow-hidden bg-secondary/30 py-20 md:py-32">
-      <div className="container px-6 md:px-6">
+      <div className="container mx-auto px-6 md:px-8">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-20">
-          <div className="lg:order-2">
+          <div className="lg:order-2 text-center lg:text-left">
             <AboutContent />
           </div>
           <div className="lg:order-1 flex gap-4 justify-center">

@@ -11,17 +11,17 @@ export function Hero() {
 
   return (
     <section className="py-20 md:py-32">
-      <div className="container px-6 md:px-6">
+      <div className="container mx-auto px-6 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
-            <div className="max-w-xl">
+            <div className="max-w-xl text-center md:text-left">
             <p className="font-semibold text-primary">Happy Customer with our services</p>
             <h1 className="font-headline text-5xl font-bold tracking-tight text-foreground md:text-6xl lg:text-7xl mt-2">
                 {SITE_INFO.tagline.split('. ').map((part, i) => <span key={i} className="block">{part}</span>)}
             </h1>
-            <p className="mt-6 max-w-xl text-lg text-muted-foreground">
+            <p className="mt-6 max-w-xl text-lg text-muted-foreground mx-auto md:mx-0">
                 Experience personalized spa and wellness care that nurtures your body, mind, and spirit.
             </p>
-            <div className="mt-10 flex flex-wrap gap-4">
+            <div className="mt-10 flex flex-wrap gap-4 justify-center md:justify-start">
                 <Button asChild size="lg" className="rounded-full font-bold text-lg px-8 py-6">
                 <Link href="/book-appointment">
                     Book an appointment

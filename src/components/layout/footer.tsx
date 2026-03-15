@@ -7,7 +7,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 const Footer = () => {
   return (
     <footer className="mt-20 border-t bg-card">
-      <div className="container mx-auto grid grid-cols-1 gap-12 p-8 md:grid-cols-4 lg:grid-cols-5 md:p-12">
+      <div className="container mx-auto grid grid-cols-1 gap-12 px-6 py-8 md:grid-cols-4 md:px-8 md:py-12 lg:grid-cols-5">
         <div className="col-span-1 flex flex-col gap-4 md:col-span-4 lg:col-span-2">
           <Link href="/" className="flex items-center gap-3">
             <Logo />

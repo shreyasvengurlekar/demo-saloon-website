@@ -88,7 +88,7 @@ export function BeforeAfterSection() {
   const afterImage = PlaceHolderImages.find((img) => img.id === 'after-1');
 
   return (
-    <section className="container px-6 md:px-6 py-20 md:py-32">
+    <section className="container mx-auto px-6 md:px-8 py-20 md:py-32">
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="font-headline text-4xl font-bold md:text-5xl">Transformations</h2>
         <p className="mt-4 text-lg text-muted-foreground">
