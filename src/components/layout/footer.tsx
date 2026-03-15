@@ -6,7 +6,7 @@ import { Facebook, Instagram, Mail, MapPin, Phone, Youtube } from "lucide-react"
 
 const Footer = () => {
   return (
-    <footer className="glass-card mt-20 border-t">
+    <footer className="glass-card mt-20 border-t-2 border-primary/20">
       <div className="container mx-auto grid grid-cols-1 gap-12 p-8 md:grid-cols-4 lg:grid-cols-5">
         <div className="col-span-1 flex flex-col gap-4 md:col-span-4 lg:col-span-2">
           <Link href="/" className="flex items-center gap-3">
