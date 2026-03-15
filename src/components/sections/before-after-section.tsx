@@ -4,6 +4,7 @@ import Image from "next/image";
 import * as React from "react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { cn } from "@/lib/utils";
+import { ChevronsLeftRight } from "lucide-react";
 
 const BeforeAfterSlider = ({ beforeImg, afterImg }: { beforeImg: any; afterImg: any }) => {
   const [sliderPosition, setSliderPosition] = React.useState(50);
@@ -42,7 +43,7 @@ const BeforeAfterSlider = ({ beforeImg, afterImg }: { beforeImg: any; afterImg: 
           alt={beforeImg.description}
           fill
           priority
-          className="object-cover"
+          className="object-cover grayscale"
           data-ai-hint={beforeImg.imageHint}
         />
       )}
@@ -64,7 +65,7 @@ const BeforeAfterSlider = ({ beforeImg, afterImg }: { beforeImg: any; afterImg: 
         </div>
       )}
       <div
-        className="absolute inset-y-0 w-1 cursor-ew-resize bg-primary/50"
+        className="absolute inset-y-0 z-20 w-1 cursor-ew-resize bg-primary/50"
         style={{
           left: `calc(${sliderPosition}% - 2px)`,
         }}
@@ -75,9 +76,7 @@ const BeforeAfterSlider = ({ beforeImg, afterImg }: { beforeImg: any; afterImg: 
           onTouchMove={handleTouchMove}
         />
         <div className="absolute top-1/2 left-1/2 h-12 w-12 -translate-x-1/2 -translate-y-1/2 rounded-full glass-card border-2 border-primary bg-background/50 flex items-center justify-center transition-transform group-hover:scale-110">
-          <svg className="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 9l4-4 4 4m0 6l-4 4-4-4" />
-          </svg>
+          <ChevronsLeftRight className="w-6 h-6 text-primary" />
         </div>
       </div>
     </div>

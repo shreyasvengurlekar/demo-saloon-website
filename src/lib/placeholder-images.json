@@ -33,25 +33,25 @@
     {
       "id": "owner-pranali",
       "description": "A warm and professional portrait of Pranali Pingulkar, co-owner and lead stylist",
-      "imageUrl": "https://picsum.photos/seed/salon-owner-female/400/400",
-      "imageHint": "female stylist"
+      "imageUrl": "https://picsum.photos/seed/female-portrait/400/400",
+      "imageHint": "woman portrait"
     },
     {
       "id": "owner-gauresh",
       "description": "A stylish portrait of Gauresh Pingulkar, co-owner and stylist",
-      "imageUrl": "https://picsum.photos/seed/salon-owner-male/400/400",
-      "imageHint": "male stylist"
+      "imageUrl": "https://picsum.photos/seed/male-portrait/400/400",
+      "imageHint": "man portrait"
     },
     {
       "id": "before-1",
       "description": "A woman's hair before a color and styling session",
-      "imageUrl": "https://picsum.photos/seed/before-hair/800/600",
+      "imageUrl": "https://picsum.photos/seed/hair-transformation/800/600",
       "imageHint": "woman before"
     },
     {
       "id": "after-1",
       "description": "The same woman's hair after a stunning balayage transformation",
-      "imageUrl": "https://picsum.photos/seed/after-hair/800/600",
+      "imageUrl": "https://picsum.photos/seed/hair-transformation/800/600",
       "imageHint": "woman after"
     },
     {
